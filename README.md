@@ -1,24 +1,24 @@
+# Flipper:bit
+This is the Flipper Zero, but using a micro:bit card and a LCD Kitronik 16x2 display.
+> INFORMATION : The LCD Kitronik 16x2 display cannot be found via the official Kitronik website, but can be found from other (unnoficial) sites or packs.
+> OTHER INFORMATION : I am NOT affiliated with Flipper Zero nor any of its creators!
 
-> Ouvrir cette page à [https://totocodefr.github.io/microbit/](https://totocodefr.github.io/microbit/)
+## Material required
+micro:bit **V2** card, a LCD Kitronik 16x2 display and a computer.
 
-## Utiliser comme extension
+## How to use
+1. Insert the micro:bit card inside the LCD display like shown in the following picture : 
 
-Ce dépôt peut être ajouté en tant qu'**extension** dans MakeCode.
+![microbit insertion example](https://github.com/TotoCodeFR/FlipperBit/assets/118753153/b2ff1e42-6d08-4738-94e2-4b702d95a76e)
 
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Nouveau projet**
-* cliquez sur **Extensions** dans le menu engrenage
-* recherchez **https://github.com/totocodefr/microbit** et importez
+2. Use a micro USB cable to plug the micro:bit card to a computer and enter batteries in the screen.
+3. Put the file that you can download from the [releases](github.com/TotoCodeFR/FlipperBit/releases/latest) and drag it in the micro:bit card's drive.
 
-## Éditer ce projet
+## Keybinds
+A : Right
+B : Left
+A + B : OK
+Reset (button behind) : Go back home
 
-Éditer ce dépôt dans MakeCode.
-
-* ouvrir [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* cliquez sur **Importer** puis cliquez sur **Importer l'URL **
-* collez **https://github.com/totocodefr/microbit** et cliquez sur importer
-
-#### Métadonnées (utilisées pour la recherche, le rendu)
-
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+## License
+THis project uses a MIT License.
