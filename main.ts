@@ -6,6 +6,13 @@ function HomeMenu () {
     Kitronik_VIEWTEXT32.displaySingleLineString(Kitronik_VIEWTEXT32.DisplayLine.Top, "  Flipper:bit   ")
     Kitronik_VIEWTEXT32.displaySingleLineString(Kitronik_VIEWTEXT32.DisplayLine.Bottom, "<    Radio     >")
 }
+input.onButtonPressed(Button.A, function () {
+    if (Page == "RDSend") {
+        if (SelectedOption == "") {
+            RadioChannel += -1
+        }
+    }
+})
 input.onButtonPressed(Button.AB, function () {
     if (Page == "Home") {
         if (SelectedOption == "Radio") {
@@ -32,6 +39,37 @@ input.onButtonPressed(Button.AB, function () {
                         break;
                     }
                 }
+            } else {
+                if (SelectedOption == "Send") {
+                    Page = "RDSend"
+                    SelectedOption = "ChannelSelector"
+                    RadioChannel = 0
+                    Kitronik_VIEWTEXT32.clearDisplay()
+                    while (true) {
+                        Kitronik_VIEWTEXT32.displaySingleLineString(Kitronik_VIEWTEXT32.DisplayLine.Top, "Sending Signal")
+                        Kitronik_VIEWTEXT32.displaySingleLineString(Kitronik_VIEWTEXT32.DisplayLine.Bottom, "<     " + RadioChannel + "     >")
+                    }
+                } else {
+                    if (Page == "Radio") {
+                        if (SelectedOption == "Send") {
+                            Kitronik_VIEWTEXT32.displaySingleLineString(Kitronik_VIEWTEXT32.DisplayLine.Top, "     Radio      ")
+                            Kitronik_VIEWTEXT32.displaySingleLineString(Kitronik_VIEWTEXT32.DisplayLine.Bottom, "<     Send     >")
+                        }
+                    }
+                }
+            }
+        }
+    }
+})
+input.onButtonPressed(Button.B, function () {
+    if (Page == "RDSend") {
+        if (SelectedOption == "") {
+            RadioChannel += 1
+        }
+    } else {
+        if (Page == "Home") {
+            if (SelectedOption == "Read") {
+                SelectedOption = "Send"
             }
         }
     }
