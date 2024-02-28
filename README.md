@@ -25,4 +25,4 @@ A + B : OK
 Reset (button behind) : Go back home
 
 ## License
-THis project uses a MIT License.
+This project uses a MIT License.
