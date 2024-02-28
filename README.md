@@ -1,6 +1,7 @@
 # Flipper:bit
 This is the Flipper Zero, but using a micro:bit card and a LCD Kitronik 16x2 display.
 > INFORMATION : The LCD Kitronik 16x2 display cannot be found via the official Kitronik website, but can be found from other (unnoficial) sites or packs.
+> 
 > OTHER INFORMATION : I am NOT affiliated with Flipper Zero nor any of its creators!
 
 ## Material required
