@@ -17,8 +17,11 @@ micro:bit **V2** card, a LCD Kitronik 16x2 display and a computer.
 
 ## Keybinds
 A : Right
+
 B : Left
+
 A + B : OK
+
 Reset (button behind) : Go back home
 
 ## License
