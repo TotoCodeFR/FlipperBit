@@ -13,7 +13,7 @@ micro:bit **V2** card, a LCD Kitronik 16x2 display and a computer.
 ![microbit insertion example](https://github.com/TotoCodeFR/FlipperBit/assets/118753153/b2ff1e42-6d08-4738-94e2-4b702d95a76e)
 
 2. Use a micro USB cable to plug the micro:bit card to a computer and enter batteries in the screen.
-3. Put the file that you can download from the [releases](github.com/TotoCodeFR/FlipperBit/releases/latest) and drag it in the micro:bit card's drive.
+3. Put the file that you can download from the [releases](https://github.com/TotoCodeFR/FlipperBit/releases/latest) and drag it in the micro:bit card's drive.
 
 ## Keybinds
 A : Right
