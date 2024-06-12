@@ -60,7 +60,7 @@ function SendRadioSgn () {
     Value = 0
     Kitronik_VIEWTEXT32.clearDisplay()
     Kitronik_VIEWTEXT32.displaySingleLineString(Kitronik_VIEWTEXT32.DisplayLine.Top, "  INFORMATION   ")
-    Kitronik_VIEWTEXT32.scrollString(Kitronik_VIEWTEXT32.DisplayLine.Bottom, "The signal getting sent currently is " + Value + ".")
+    Kitronik_VIEWTEXT32.scrollString(Kitronik_VIEWTEXT32.DisplayLine.Bottom, "Sent signal : " + Value + ".")
     control.waitMicros(3000000)
     Kitronik_VIEWTEXT32.scrollString(Kitronik_VIEWTEXT32.DisplayLine.Bottom, "Edit this value in the code.")
     control.waitMicros(3000000)
